@@ -1,0 +1,19 @@
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slideshow {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  

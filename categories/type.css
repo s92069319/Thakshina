@@ -1,0 +1,74 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .column {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column:nth-child(1) {
+    width: 20%;
+    align-items: center;
+    margin-top: 200px;
+  }
+  
+  .column:nth-child(2) {
+    width: 60%;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .column:nth-child(3) {
+    margin-top: 0px;
+    width: 20%;
+    display: flex;
+    align-items: center; /* Center content horizontally */
+  
+  }
+  
+  
+  
+
+  
+
+/* styles.css */
+.custom-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+
+.post {
+  margin-top: 120px;
+  width: 440px;
+  height: auto;
+  margin: 20px auto;
+  padding: 30px 30px 30px 30px;
+  border-radius:20px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.post-info {
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+}

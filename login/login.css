@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative; 
+    font-family:sans-serif;
+}
+
+.P1 {
+    position: fixed;
+    height: 100%;
+
+}
+
+.P2 {
+    position: fixed;
+    height: 75%;
+    width: 75%;
+    top: 0;
+    right: 0;
+}
+
+.nav {
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 75%;
+   height: 70px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   z-index: 100;
+   display: block;   
+}
+
+
+.nav ul {
+    list-style: none;
+    display:flex;
+    margin-left:400px;
+    line-height: 50px;
+}
+
+.nav ul li {
+    margin-right:55px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background: linear-gradient(to right,white,#0295A9);
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+
+}
+.nav ul li a:hover::after{
+    width: 100%;
+    transition: 0.3s;
+
+}
+
+ .logo{
+    top:22px;
+    left:100px;
+    position: absolute;
+    width: 230px;
+    height: 80px;
+ }
+
+ #log{
+    color: #0295A9;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+ }
+ .main{
+    position: absolute;
+    margin-top: 180px;
+    margin-left:600px ;
+    width: 500px;
+    height: 400px;  
+    color:#0295A9 ;
+ }
+ #text{
+    color: #0295A9;
+    font-weight: bold;
+    line-height: 40px;
+ }
+ #form{
+    margin-top: 30px;
+    margin-left: 50PX;
+    display:inline-block;
+ }
+ label{
+    display: block;
+    line-height: 30px;
+ }
+
+#user,#pass{
+    width: 300px;
+    height: 30px;
+    border: 2px solid #0295A9;
+    outline: none;
+    border-radius: 10px;
+}
+#user:focus{
+   width: 310px;
+}
+#pass:focus{
+   width: 310px;
+}
+
+
+ #loginlogo{
+    width: 80px;
+    height: 80px;
+    margin-left: 150px;
+ }
+
+ #continuebtn,#forgotbtn{
+    display: bloCK;
+    width:300px ;
+    height: 30px;
+    margin-top: 30px;
+    transition: 0.5s;
+
+ }
+ #continuebtn{
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right,#0295A9,#69B7C1,#70B9C3,#ADCDD1);
+
+ }
+ #continuebtn:hover{
+   background: linear-gradient(to right,#0295A9,#69B7C1,#70B9C3,#ADCDD1);
+   border: #0295A9 3px solid;
+
+ }
+ #forgotbtn{
+    border: none;
+    outline: none;
+    color: white;
+    background: linear-gradient(to right,#f27a7a,#f44848,#FF0000);
+    font-size: 13px;
+    text-align: center;
+    padding-top: 6px;
+ }
+ #forgotbtn:hover{
+   background: linear-gradient(to right,#f27a7a,#f44848,#f03434);
+   border: #FF0000 3px solid;
+
+
+
+ }
+ form a{
+   text-decoration: none;
+ }
+
+
+ #smallcircle{
+    width: 65px;
+    height: 65px;
+    background-color: #0295A9;
+    border-radius: 50px;
+    margin-top:650px;
+    margin-left: 1100px;
+    position: absolute  ;
+ }
+
+ #circle1{
+    width: 120px;
+    height: 120px;
+    background:linear-gradient(to top,rgb(233, 233, 102), white);
+    border-radius: 80px;
+    margin-top:180px;
+    margin-left: 1240px;
+    position: absolute  ;
+    transform: rotate(45deg);
+ }
+ #circle2{
+    width: 180px;
+    height: 350px;
+    margin-top: 385px;
+    margin-left: 1348px;
+    position: absolute;
+    border-radius: 0 0 0 150px;
+ }
+ 
+

@@ -1,0 +1,204 @@
+.box
+{
+  width: 740px;
+	height:auto;
+
+	border:2pt solid rgb(0, 0, 0);
+	border-radius:20px;
+}
+
+
+.textarea1{
+width: 400px;
+padding: 10px;
+border-radius: 4px;
+color: rgb(0, 0, 0);
+border:1pt solid rgb(112, 101, 101);
+
+}
+
+
+
+
+.custom-file-upload {
+
+ 
+    font-family: Arial;
+margin-top: -740px;
+width: 230px;
+
+    padding: 10px;
+    background-color:  #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.custom-file-upload input[type="file"] {
+
+}
+
+.file-name {
+  
+}
+
+/* Change button style on hover */
+.custom-file-upload:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+.uploadbutton {
+
+	display: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #3498db;
+	border: 2px solid #3498db;
+	transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+	width: 650px;
+  }
+  
+  .uploadbutton:hover {
+	background-color: #2980b9;
+	border-color: #2980b9;
+  }
+  
+  .uploadbutton:active {
+	background-color: #1f618d;
+	border-color: #1f618d;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* user */
+
+  .profile-picture {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 50px;
+  }
+
+
+
+
+.userfullname{
+	color: #2980b9;
+	font-size: 30px;
+	margin-left: 140px;
+	font-weight: bold;
+	margin-top: -60px;
+	
+
+}
+
+.postdate{
+	color: #2980b9;
+	font-size: 15px;
+	margin-left: 140px;
+	margin-top: -30px;
+	
+
+}
+
+.review{
+
+	margin-left: 50px;
+}
+
+.postid{
+	margin-top: 40px;
+	color: darkgreen;
+	margin-left: 50px;
+}
+
+
+
+/*-------like----*/
+
+.left-like{
+
+	margin-left: 50px;
+
+}
+
+
+.text-like{
+
+	margin-top: -24px;
+	margin-left: 100px;
+	}
+
+	
+	
+
+
+
+.comment-form {
+  margin-left: 50px;
+}
+	
+	
+.comment-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+	width: 490px;
+}
+
+.comment-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your desired button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-btn:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+}
+
+
+.show-comment{
+	padding: 10px 20px;
+    background-color: #007bff; /* Change to your desired button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+	width: 640px;
+	margin-left: 50px;
+    transition: background-color 0.3s ease;
+
+}

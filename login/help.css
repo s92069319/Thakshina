@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative; 
+    font-family:sans-serif;
+}
+
+.P1 {
+    position: fixed;
+    height: 100%;
+
+}
+
+.P2 {
+    position: fixed;
+    height: 75%;
+    width: 75%;
+    top: 0;
+    right: 0;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+    display: block;  
+}
+
+.nav ul {
+    list-style: none;
+    display:flex;
+    margin-left: 400px;
+    line-height: 50px;
+}
+
+.nav ul li {
+    margin-right:55px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background: linear-gradient(to right,white,#0295A9);
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+
+}
+.nav ul li a:hover::after{
+    width: 100%;
+    transition: 0.3s;
+
+}
+ .logo{
+    top:22px;
+    left:100px;
+    position: absolute;
+    width: 230px;
+    height: 80px;
+ }
+
+ h1{
+    color: #0295A9;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 300px;
+ }
+ #smallcircle{
+    width: 65px;
+    height: 65px;
+    background-color: #0295A9;
+    border-radius: 50px;
+    margin-top:650px;
+    margin-left: 1100px;
+    position: absolute  ;
+ }
+
+ #circle1{
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(to top, #93c6f6,#b1d6f8, white);
+    transform: rotate(45deg);
+    border-radius: 80px;
+    margin-top:180px;
+    margin-left: 1240px;
+    position: absolute  ;
+
+ }
+ #circle2{
+    width: 180px;
+    height: 350px;
+    margin-top: 385px;
+    margin-left: 1348px;
+    position: absolute;
+    border-radius: 0 0 0 150px;
+ }
+ .container{
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    margin-top: 220px;
+    margin-left: 290px;
+    font-size: 12px;
+ }
+ .container span{
+    color: #0295A9;
+ }
+ .container #p1{
+    margin-top:8px;
+    width: 1070px;
+ }
+ .container #p2 ,.container #p3,.container #p4,.container #p5,.container #p6,.container #p7 {
+    margin-left:25px ;
+ }
